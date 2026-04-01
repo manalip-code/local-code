@@ -5,9 +5,9 @@ def get_valid_marks():
             if 0 <= marks <= 100:
                 return marks
             else:
-                print("❌ Marks must be between 0 and 100. Try again.")
+                print(" Marks must be between 0 and 100. Try again.")
         except ValueError:
-            print("❌ Invalid input! Please enter a number.")
+            print(" Invalid input! Please enter a number.")
 
 
 # Function to input student data
